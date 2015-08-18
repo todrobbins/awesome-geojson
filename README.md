@@ -1,4 +1,4 @@
-# awesome geojson
+# awesome geojson [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 GeoJSON utilities that will make your life easier.
 
@@ -17,6 +17,7 @@ GeoJSON utilities that will make your life easier.
 * [point-grouper](https://github.com/substack/point-grouper): group geojson points into containing polygons
 * [geojson-join](https://github.com/tmcw/geojson-join): join geojson against json, dbf, and csv files
 * [simplify-geojson](https://github.com/maxogden/simplify-geojson): apply the ramer-douglas-peucker line simplification to geojson features or feature collections in JS or on the CLI
+* [turf](https://github.com/Turfjs/turf): collection of functions for spatial operations and analysis
 
 ### validation
 
@@ -28,6 +29,7 @@ GeoJSON utilities that will make your life easier.
 * [geojsonio-extension](https://github.com/mapbox/geojsonio-extension): chrome extension for editing github files in geojson.io
 * [geojsonlint](http://geojsonlint.com/): REST interface for GeoJSON validation
 * [mapshaper](http://mapshaper.org/): Simple interface for simplification and conversion of GeoJSON and TopoJSON
+* [koop](https://github.com/Esri/koop): Server that recuts Esri & GitHub services as GeoJSON endpoints
 
 ### conversion
 
@@ -46,6 +48,7 @@ GeoJSON utilities that will make your life easier.
 * [vt-geojson](https://github.com/developmentseed/vt-geojson): Extract GeoJSON from Mapbox vector tiles
 * [wellknown](https://github.com/mapbox/wellknown): convert wkt to geojson
 * [osmtogeojson](https://github.com/tyrasd/osmtogeojson): convert OpenStreetMap data to GeoJSON
+* [esri2open](https://github.com/project-open-data/esri2open) converts proprietary Esri formats to GeoJSON
 
 ### data
 
