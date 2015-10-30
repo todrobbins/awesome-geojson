@@ -19,6 +19,13 @@ GeoJSON utilities that will make your life easier.
 * [simplify-geojson](https://github.com/maxogden/simplify-geojson): apply the ramer-douglas-peucker line simplification to geojson features or feature collections in JS or on the CLI
 * [turf](https://github.com/Turfjs/turf): collection of functions for spatial operations and analysis
 
+### editors
+
+* [geojson.io](http://geojson.io/): web-based editor, supports many filetype imports & exports, operations, sharing via GitHub
+* [umap](http://umap.openstreetmap.fr/en/): web-based editor, supports sharing on-site
+* [simple geojson editor](https://google-developers.appspot.com/maps/documentation/utils/geojson/): geojson editor on a google map, by google
+* [mapstarter](http://mapstarter.com/): helps generate svg, images, and code from GeoJSON
+
 ### validation
 
 * [geojsonhint](https://github.com/mapbox/geojsonhint): find errors in your geojson files
@@ -49,6 +56,7 @@ GeoJSON utilities that will make your life easier.
 * [wellknown](https://github.com/mapbox/wellknown): convert wkt to geojson
 * [osmtogeojson](https://github.com/tyrasd/osmtogeojson): convert OpenStreetMap data to GeoJSON
 * [esri2open](https://github.com/project-open-data/esri2open) converts proprietary Esri formats to GeoJSON
+* [gtfs2geojson](https://github.com/tmcw/gtfs2geojson): convert GTFS transit data to GeoJSON
 
 ### data
 
