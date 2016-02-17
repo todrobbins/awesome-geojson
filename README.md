@@ -32,11 +32,11 @@ GeoJSON utilities that will make your life easier.
 
 ### services
 
-* [geojsonio-cli](https://github.com/mapbox/geojsonio-cli): send geojson features to [geojson.io](http://geojson.io/) from your command line
+* [geojsonio-cli](https://github.com/mapbox/geojsonio-cli): send geojson features to geojson.io from your command line
 * [geojsonio-extension](https://github.com/mapbox/geojsonio-extension): chrome extension for editing github files in geojson.io
 * [geojsonlint](http://geojsonlint.com/): REST interface for GeoJSON validation
 * [mapshaper](http://mapshaper.org/): Simple interface for simplification and conversion of GeoJSON and TopoJSON
-* [koop](https://github.com/Esri/koop): Server that recuts Esri & GitHub services as GeoJSON endpoints
+* [koop](https://koopjs.github.io): Server with plugins that recast Esri, GitHub, Socrata and other services as GeoJSON endpoints
 
 ### conversion
 
@@ -57,14 +57,16 @@ GeoJSON utilities that will make your life easier.
 * [osmtogeojson](https://github.com/tyrasd/osmtogeojson): convert OpenStreetMap data to GeoJSON
 * [esri2open](https://github.com/project-open-data/esri2open) converts proprietary Esri formats to GeoJSON
 * [gtfs2geojson](https://github.com/tmcw/gtfs2geojson): convert GTFS transit data to GeoJSON
+* [geoxform](https://github.com/koopjs/geoxform): convert any size stream of geojson into a streaming csv, shapefile or kml, etc.
 
 ### data
 
 * [natural earth](http://www.naturalearthdata.com/): country, province, and geographical data
+* [geojson.xyz](http://geojson.xyz/): natural earth data in web-friendly sizes with hotlinking
 * [world-atlas](https://github.com/mbostock/world-atlas): customizable simplified versions of natural earth data
 * [openflights-geojson](https://github.com/tmcw/openflights-geojson): [openflights](http://openflights.org/) airports & airplane routes
 * [us-atlas](https://github.com/mbostock/us-atlas): geojson & topojson for United States features
-* [metro-extracts](https://mapzen.com/metro-extracts/): regional OpenStreetMap data as GeoJSON
+* [metro-extracts](https://mapzen.com/data/metro-extracts): regional OpenStreetMap data as GeoJSON
 * [whereonearth-airport](https://github.com/straup/whereonearth-airport): outlines of every airport
 * [whereonearth-building](https://github.com/straup/whereonearth-building/): building outlines
 * [whereonearth repos](https://github.com/search?q=user%3Astraup+whereonearth): other features output from GeoPlanet by Aaron Straup Cope
@@ -75,10 +77,11 @@ GeoJSON utilities that will make your life easier.
 ### serialization
 
 * [python-geojson](https://github.com/frewsxcv/python-geojson): serialize geojson to/from python datatypes
+* [rgeo-geojson](https://github.com/rgeo/rgeo-geojson): serialize geojson to/from ruby RGeo datatypes
 * [rust-geojson](https://github.com/georust/rust-geojson): serialize geojson to/from rust datatypes
 
 ## License
 
-[![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
 
-To the extent possible under law, [Tom MacWright](http://macwright.org) has waived all copyright and related or neighboring rights to this work.
+To the extent possible under law, [Tom MacWright](http://www.macwright.org) has waived all copyright and related or neighboring rights to this work.
