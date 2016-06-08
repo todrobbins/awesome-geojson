@@ -7,6 +7,7 @@ GeoJSON utilities that will make your life easier.
 * [geojson-coords](https://github.com/mapbox/geojson-coords): Extract coordinates from GeoJSON
 * [geojson-extent](https://www.npmjs.com/package/geojson-extent): compute the bounding box of geojson features
 * [geojson-flatten](https://github.com/mapbox/geojson-flatten): flatten multi geometries into normal geometries
+* [geojson-multiply](https://github.com/haoliangyu/geojson-multiply):  merge normal geojson features into one multi geometry type feature
 * [geojson-js-utils](https://github.com/maxogden/geojson-js-utils): JavaScript helper functions for manipulating GeoJSON
 * [geojson-merge](https://github.com/mapbox/geojson-merge): Merge multiple GeoJSON files into one FeatureCollection.
 * [geojson-normalize](https://github.com/mapbox/geojson-normalize): normalize any geojson object into a geojson featurecollection
@@ -18,13 +19,15 @@ GeoJSON utilities that will make your life easier.
 * [geojson-join](https://github.com/tmcw/geojson-join): join geojson against json, dbf, and csv files
 * [simplify-geojson](https://github.com/maxogden/simplify-geojson): apply the ramer-douglas-peucker line simplification to geojson features or feature collections in JS or on the CLI
 * [turf](https://github.com/Turfjs/turf): collection of functions for spatial operations and analysis
+* [winnow](https://github.com/dmfenton/winnow): run sql queries against geojson with javascript
 
-### editors
+### editors & viewers
 
 * [geojson.io](http://geojson.io/): web-based editor, supports many filetype imports & exports, operations, sharing via GitHub
 * [umap](http://umap.openstreetmap.fr/en/): web-based editor, supports sharing on-site
 * [simple geojson editor](https://google-developers.appspot.com/maps/documentation/utils/geojson/): geojson editor on a google map, by google
 * [mapstarter](http://mapstarter.com/): helps generate svg, images, and code from GeoJSON
+* [gjv](https://github.com/anandthakker/gjv): electron app enables viewing GeoJSON locally and hack on it with turf; works offline
 
 ### validation
 
@@ -66,7 +69,7 @@ GeoJSON utilities that will make your life easier.
 * [world-atlas](https://github.com/mbostock/world-atlas): customizable simplified versions of natural earth data
 * [openflights-geojson](https://github.com/tmcw/openflights-geojson): [openflights](http://openflights.org/) airports & airplane routes
 * [us-atlas](https://github.com/mbostock/us-atlas): geojson & topojson for United States features
-* [metro-extracts](https://mapzen.com/data/metro-extracts): regional OpenStreetMap data as GeoJSON
+* [metro-extracts](https://mapzen.com/data/metro-extracts/): regional OpenStreetMap data as GeoJSON
 * [whereonearth-airport](https://github.com/straup/whereonearth-airport): outlines of every airport
 * [whereonearth-building](https://github.com/straup/whereonearth-building/): building outlines
 * [whereonearth repos](https://github.com/search?q=user%3Astraup+whereonearth): other features output from GeoPlanet by Aaron Straup Cope
