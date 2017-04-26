@@ -30,6 +30,7 @@ GeoJSON utilities that will make your life easier.
 * [gjv](https://github.com/anandthakker/gjv): electron app enables viewing GeoJSON locally and hack on it with turf; works offline
 * [GeoJSON editor](https://tomscholz.github.io/geojson-editor/): a modified version of Google's simple geojson editor
 * [geojson2image](https://github.com/brycejohnston/geojson2image): library for generating images from GeoJSON
+* [dropchop](http://dropchop.io/): browser-based GIS based on Turf.js
 
 ### validation
 
@@ -65,6 +66,8 @@ GeoJSON utilities that will make your life easier.
 * [gtfs2geojson](https://github.com/tmcw/gtfs2geojson): convert GTFS transit data to GeoJSON
 * [geoxform](https://github.com/koopjs/geoxform): convert any size stream of geojson into a streaming csv, shapefile or kml, etc.
 * [supercluster](https://github.com/mapbox/supercluster): A fast GeoJSON clustering library for browsers and Node.
+* [rfc7946-to-d3](https://github.com/tyrasd/rfc7946-to-d3): Converts polygon winding order between rfc7946 and [d3 compatible](https://github.com/d3/d3-geo#d3-geo) conventions.
+* [geojson-svgify](https://github.com/juliuste/geojson-svgify): Convert GeoJSON geometry paths to SVG polyline elements.
 
 ### data
 
@@ -86,10 +89,13 @@ GeoJSON utilities that will make your life easier.
 * [python-geojson](https://github.com/frewsxcv/python-geojson): serialize geojson to/from python datatypes
 * [rgeo-geojson](https://github.com/rgeo/rgeo-geojson): serialize geojson to/from ruby RGeo datatypes
 * [rust-geojson](https://github.com/georust/rust-geojson): serialize geojson to/from rust datatypes
+* [geojson-jackson](https://github.com/opendatalab-de/geojson-jackson): serialize GeoJSON to and from Java datatypes (based on [Jackson](http://wiki.fasterxml.com/JacksonHome))
+* [mapbox-java](https://github.com/mapbox/mapbox-java): serialize GeoJSON to and from Java datatypes (based on [Gson](https://github.com/google/gson))
 
 ### resources
 
-* [GeoJSON.org](http://geojson.org/): the specification, defining all the rules for GeoJSON structures
+* [RFC 7946 – The GeoJSON Format](https://tools.ietf.org/html/rfc7946): the current GeoJSON standard by IETF
+* [GeoJSON.org](http://geojson.org/): the first specification, defining all the rules for GeoJSON structures
 * [More than you ever wanted to know about GeoJSON](http://www.macwright.org/2015/03/23/geojson-second-bite.html): a review of the concepts behind the specification in a more narrative format.
 
 ## License
